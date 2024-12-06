@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaya Vivek Reddy's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .project-details {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-blue-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-lg font-bold">Jaya Vivek Reddy</a>
+            <div>
+                <a href="#projects" class="text-white px-4">Projects</a>
+                <a href="#contact" class="text-white px-4">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="bg-blue-500 text-white text-center py-20">
+        <h1 class="text-4xl font-bold">Welcome to My Portfolio</h1>
+        <p class="mt-4">Showcasing my projects and skills</p>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto py-20">
+        <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Data Wrangling Project -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="path/to/your/image.jpg" alt="Data Wrangling Project" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">Data Wrangling for Venky Hatcheries</h3>
+                    <p class="text-gray-700">A comprehensive project where I utilized data wrangling techniques to streamline and analyze supply chain data for Venky Hatcheries.</p>
+                    <button onclick="toggleProjectDetails('project1-details')" class="text-blue-500 hover:text-blue-700 mt-4 inline-block">Read More</button>
+                    <div id="project1-details" class="project-details mt-4 text-gray-700">
+                        <h4 class="text-lg font-semibold">Project Details</h4>
+                        <p>This project involved the following key steps:</p>
+                        <ul class="list-disc list-inside ml-4">
+                            <li>Data Collection: Gathering data from various sources including CSV files, databases, and APIs.</li>
+                            <li>Data Cleaning: Removing duplicates, handling missing values, and correcting inconsistencies.</li>
+                            <li>Data Transformation: Normalizing and transforming data into a suitable format for analysis.</li>
+                            <li>Data Analysis: Performing statistical analysis and visualization to extract insights.</li>
+                            <li>Reporting: Creating comprehensive reports and dashboards for stakeholders.</li>
+                        </ul>
+                        <p>The project resulted in significant improvements in the accuracy and efficiency of the supply chain operations at Venky Hatcheries.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-200 py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+            <form id="contact-form" class="w-full max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <div class="mb-4">
+                    <label for="name" class="block text-left text-gray-700">Name</label>
+                    <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-left text-gray-700">Email</label>
+                    <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-left text-gray-700">Message</label>
+                    <textarea id="message" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="bg-blue-800 text-white text-center py-4">
+    <p>&copy; 2024 Jaya Vivek Reddy. All rights reserved.</p>
+    <div class="flex justify-center mt-4">
+        <a href="https://www.linkedin.com/in/jaya-vivek-reddy" target="_blank" class="text-white mx-2 hover:text-gray-400">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.269c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 10.269h-3v-4.5c0-1.105-.895-2-2-2s-2 .895-2 2v4.5h-3v-9h3v1.309c.829-1.21 2.326-2.309 3.75-2.309 2.481 0 4.5 2.019 4.5 4.5v5.5z"/>
+            </svg>
+        </a>
+        <a href="https://github.com/jaya-vivek-reddy" target="_blank" class="text-white mx-2 hover:text-gray-400">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.724-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.758-1.333-1.758-1.089-.745.083-.729.083-.729 1.205.084 1.837 1.236 1.837 1.236 1.07 1.834 2.809 1.305 3.495.998.108-.775.419-1.305.763-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.468-2.381 1.236-3.221-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23.957-.266 1.983-.398 3.003-.403 1.02.005 2.047.137 3.005.403 2.29-1.552 3.295-1.23 3.295-1.23.655 1.653.243 2.873.12 3.176.77.84 1.235 1.911 1.235 3.221 0 4.61-2.803 5.625-5.475 5.92.431.371.814 1.102.814 2.222v3.293c0 .322.215.694.825.576 4.765-1.587 8.2-6.084 8.2-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+        </a>
+        <a href="https://twitter.com/jaya_vivek_reddy" target="_blank" class="text-white mx-2 hover:text-gray-400">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 4.557a9.83 9.83 0 01-2.828.775 4.934 4.934 0 002.165-2.724 9.865 9.865 0 01-3.127 1.195 4.916 4.916 0 00-8.384 4.482c-4.083-.205-7.699-2.159-10.125-5.134a4.822 4.822 0 00-.664 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616c-.054 1.997 1.397 3.886 3.448 4.301a4.928 4.928 0 01-2.224.085 4.93 4.93 0 004.604 3.417 9.868 9.868 0 01-6.102 2.104c-.396 0-.786-.023-1.17-.069a13.944 13.944 0 007.557 2.213c9.054 0 14.002-7.496 14.002-13.986 0-.213-.005-.425-.014-.636a10.025 10.025 0 002.462-2.548l-.047-.02z"/>
+            </svg>
+        </a>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
