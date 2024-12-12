@@ -4,7 +4,7 @@
 ## Project Description
 
 ## Data Analytical Platform
-![1](https://github.com/user-attachments/assets/cf1b6440-b44f-44c4-a9ab-96afef80a494)
+![14](https://github.com/user-attachments/assets/b679f1b0-25de-46db-a0cd-6fcd845123fe)
 
 This project involves an exploratory analysis of the Vancouver Rental Standards Current Issues dataset. The primary goal is to identify and understand patterns and trends in unresolved by-law issues across different geographic areas within Vancouver. By leveraging data analytics and cloud computing tools, this project aims to provide actionable insights that can help improve rental standards and address compliance challenges in the city.
 
@@ -51,10 +51,10 @@ The cleaned and transformed dataset was analyzed to answer the following key que
 
 The data pipeline was designed using AWS Glue's Visual ETL tool to automate the process of data extraction, transformation, and loading (ETL). The pipeline included steps for data ingestion, cleaning, transformation, and storage.
 ## For Total Count
-![11](https://github.com/user-attachments/assets/9c999d69-a254-4a12-b360-17b5ee8f325c)
+![11](https://github.com/user-attachments/assets/90ed13a4-fae5-4ae8-a6cc-442e3a699b4a)
 
-## average number of unresolved by-law issues
-![15](https://github.com/user-attachments/assets/d15dce42-1372-446d-a597-9ca55600b7f0)
+## Average number of unresolved by-law issues
+![15](https://github.com/user-attachments/assets/c76cf1dd-3bb6-4186-94a5-91a272eb78eb)
 
 ## Tools and Technologies
 
@@ -66,13 +66,15 @@ The data pipeline was designed using AWS Glue's Visual ETL tool to automate the 
 
 ### Total Count of Unresolved By-Law Issues
 The analysis revealed the distribution of unresolved by-law issues across different geographic areas in Vancouver. The Geo Local Area with the highest number of unresolved issues was identified, highlighting areas that may require additional resources and attention.
-![1](https://github.com/user-attachments/assets/a427f696-7451-4af2-8747-b422a572e1dd)
+![1](https://github.com/user-attachments/assets/2b130624-3f25-4762-bdc2-426452817e94)
 
 ### Average Number of Unresolved By-Law Issues
 
 The average number of unresolved by-law issues was calculated for each Geo Local Area, providing insights into the relative severity of compliance challenges in different neighbourhoods.
-![16](https://github.com/user-attachments/assets/f465666a-d605-477d-925b-9df7f48e7ff8)
-![2](https://github.com/user-attachments/assets/25fe60c3-b420-4ed7-be6e-13f1b197b261)
+![2](https://github.com/user-attachments/assets/b6852e86-112d-4fb0-92f2-71d97ae19770)
+
+![16](https://github.com/user-attachments/assets/e0f2495a-3eb8-4eba-9f1b-7cf2a0e28b92)
+
 ## Conclusion
 
 This project successfully demonstrated the use of cloud computing and data analytics tools to perform an exploratory analysis of the Vancouver Rental Standards Current Issues dataset. The insights gained from this analysis can help inform policy decisions and resource allocation to address rental compliance issues in Vancouver.
