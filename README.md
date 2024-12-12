@@ -88,20 +88,12 @@ Future work could involve extending the analysis to include additional datasets,
 ## Project Description
 This project involves creating a data crawler to analyze the Vancouver Rental Standards Current Issues dataset. The primary goal is to identify and understand patterns and trends in unresolved by-law issues across different geographic areas within Vancouver. By leveraging data analytics and cloud computing tools, this project aims to provide actionable insights that can help improve rental standards and address compliance challenges in the city.
 
+## Data Analytical Platform
+![1](https://github.com/user-attachments/assets/a0a496a1-7ca1-4abe-9419-0cbbcbb55042)
+
 ## Objective
 The main objective of this project is to conduct a thorough analysis of the unresolved by-law issues reported in Vancouver's rental properties. This involves cleaning, transforming, and analyzing the dataset to uncover insights related to the geographic distribution of these issues.
 
-## Dataset
-The dataset used in this project includes the following fields:
-- **Business Operator**: The name or identifier of the business or individual operating the rental property.
-- **Detail URL**: A web link to a detailed page containing more information about the specific property or issue.
-- **Street Number**: The number assigned to a building or property on a street.
-- **Street**: The name of the street where the property is located.
-- **Total Outstanding**: The total number of unresolved by-law issues or complaints associated with the property.
-- **Total Units**: The total number of rental units within the property.
-- **Geom**: Geometric data representing the shape or boundary of the property.
-- **Geo Local Area**: The geographic area or neighbourhood where the property is situated.
-- **Geo Point 2d**: A specific geographic coordinate (latitude and longitude) representing the exact location of the property.
 ## Methodology
 ### Data Collection
 The dataset was sourced from Vancouver's open data portal and ingested into an Amazon S3 bucket for further processing.
@@ -129,6 +121,16 @@ Data observability was performed using Amazon CloudWatch, enabling real-time mon
 - **Amazon Athena**: Query service for running SQL queries on data stored in S3.
 - **Amazon CloudWatch**: Monitoring and observability service.
 - **AWS Key Management Service (KMS)**: Encryption and key management service.
+- **Python**: Programming language for data manipulation and analysis.
+- **Pandas**: Python library for data manipulation and analysis.
+
+### Data Pipeline Design
+
+The data pipeline was designed using AWS Glue's Visual ETL tool to automate the process of data extraction, transformation, and loading (ETL). The pipeline included steps for data enrichment, data protection, data governance, and data observation.
+![2](https://github.com/user-attachments/assets/45d58bed-cd52-4dd1-a367-6dd8606a2a6b)
+
+### Data Observability
+![3](https://github.com/user-attachments/assets/258bf31b-8346-4af2-8115-7f661fd5952b)
 
 ## Results and Insights
 ### Total Count of Unresolved By-Law Issues
